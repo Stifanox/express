@@ -1,0 +1,30 @@
+a:visited{
+    text-decoration: none;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
+menu{
+    background-color: #45cfee;
+    padding: 20px;
+    margin: 0;
+}
+body{
+    margin:0;
+}
+form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width:30%;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+}
+.logged{
+    background-color: rgb(208, 255, 0);
+}

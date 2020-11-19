@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <menu>
+       <a href="/"> main </a> <a href="./register"> register </a> <a href="./login"> login </a> <a href="./admin"> admin </a> 
+    </menu>
+    
+  
+    <form action="/register" method="POST">
+        <label for="username">Nazwa użytkownika</label>
+        <input type="text" name="username">
+        <label for="password">Hasło</label>
+        <input type="password" name="password">
+        <div>
+        <label for="student"> Uczeń ?</label>
+        <input type="checkbox" name="student"> 
+        </div>
+        <label for="age">Wiek</label>
+        <input type="number" name="age">
+        <div>
+        <label for="">Płeć</label>
+        <input type="checkbox" name="plec" value="K"><label for="plec">K</label>
+        <input type="checkbox" name="plec" value="M" checked><label for="plec">M</label>
+        </div>
+        <button type="submit">Dodaj użytkownika</button>
+    </form>
+       
+
+  
+</body>
+</html>
